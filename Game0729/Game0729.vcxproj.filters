@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="func.cpp">
+      <Filter>Func</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>InputManage</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScene.cpp">
+      <Filter>game\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Director.cpp">
+      <Filter>game\Director</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Func">
+      <UniqueIdentifier>{46aa3040-aff9-42e7-b8b8-ca2322ba4958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="InputManage">
+      <UniqueIdentifier>{fac78a75-cdbe-4b9a-bf58-9a1716e59cfb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{4590cc4d-366d-40af-a8cc-09c89b8ac247}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\Scene">
+      <UniqueIdentifier>{b714a465-56ca-4495-b080-59d10756910d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game\Director">
+      <UniqueIdentifier>{60ea3c2c-b75b-48b8-b698-42efe3eec479}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="func.h">
+      <Filter>Func</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>InputManage</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScene.h">
+      <Filter>game\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Director.h">
+      <Filter>game\Director</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
